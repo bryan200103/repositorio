@@ -35,7 +35,7 @@ function getProyect(){
              <header class="headerPro">
                 <span class="proyec-name"> ${repo.name} </span>
                 <span class="proyec-descrip">${
-                    repo.description ?? "sin descripcion"}
+                    repo.description ??"<br>sin descripcion"}
                 </span>
              </header>
              
@@ -51,7 +51,7 @@ function getProyect(){
              </ul>
 
              <section class="project-git">
-              <a href="https://github.com/bryan200103/${
+              <a class="textpro" href="https://github.com/bryan200103/${
                 repo.name
               }" target="_blank">
                 <button class="btnG btn-primary">Ir al repositorio</button>

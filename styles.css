@@ -140,7 +140,12 @@ a{
 .contenedorHab{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     gap: 15px;
+    
+    
+    flex-wrap: wrap;
 }
 
 
@@ -156,6 +161,7 @@ a{
     gap: 10px;
     height: 200px;
     position: relative;
+    
 
 }
 
@@ -192,6 +198,35 @@ a{
     background: linear-gradient(to top, rgb(252, 109, 0), hsl(18, 92%, 75%));
     color: rgb(41, 34, 94);
 }
+.art-Angular{
+    background: linear-gradient(to top, rgb(192, 77, 250), hsl(0, 95%, 61%));
+    color: rgb(41, 34, 94);
+}
+
+.art-Java{
+    background: linear-gradient(to top, rgb(174, 178, 225), hsl(0, 0%, 100%));
+    color: rgb(41, 34, 94);
+}
+.art-git{
+    background: linear-gradient(to top, rgb(174, 178, 225), hsl(0, 0%, 100%));
+    color: rgb(41, 34, 94);
+
+    
+}
+/* #cimg{
+    width: 90%;
+    object-fit: cover;
+
+}
+#htmlimg{
+    width: 70%;
+    object-fit: cover;
+}
+
+#angularimg{
+    width: 60%;
+    object-fit: cover;
+} */
 
 .sectionhab{
     background: rgb(239, 239, 239);
@@ -224,6 +259,8 @@ a{
     flex-direction: column;
     gap: 15px;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     
     
 }

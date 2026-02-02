@@ -35,14 +35,15 @@ function getProyect(){
              <header class="headerPro">
                 <span class="proyec-name"> ${repo.name} </span>
                 <span class="proyec-descrip">${
-                    repo.description ??"<br>sin descripcion"}
+                    repo.description ??"<br>sin descripcion"
+                }
                 </span>
              </header>
              
              <ul class="temaproyect">
                     ${repo.topics
                         .map((topic)=>{
-                           return ` <li class="temaproyect" ${getTopic(topic)}>
+                           return ` <li class="temaproyect ${getTopic(topic)}">
                                 <span>${topic}</span>
                            </li>
                             `;
